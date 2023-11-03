@@ -15,8 +15,8 @@ test('create an answer', async () => {
     const answer = await answerQuestion.execute({
         questionId: '1',
         instructorId: '1',
-        content: 'Nova resposata',
+        content: 'New response',
     })
 
-    expect(answer.content).toEqual('Nova resposata');
+    expect(answer.content).toEqual('New response');
 })
