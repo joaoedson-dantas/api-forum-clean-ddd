@@ -1,7 +1,6 @@
-import { randomUUID } from "node:crypto"
 import { UniqueEntityID } from "./unique-entity-id"
 
-export class Entity<TProps> // generic param tips 
+export class Entity<TProps> // generic param types
 {
     private _id: UniqueEntityID
     protected props: TProps 
